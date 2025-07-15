@@ -1,0 +1,11 @@
+PySide6
+yara-python
+oletools>=0.60.2
+pefile
+lief
+capstone
+pdfminer.six
+transformers
+torch
+python-magic
+requests
