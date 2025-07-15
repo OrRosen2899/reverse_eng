@@ -7,5 +7,5 @@ capstone
 pdfminer.six
 transformers
 torch
-python-magic
+python-magic-bin
 requests
