@@ -1,6 +1,6 @@
 PySide6
 yara-python
-oletools>=0.60.2
+oletools
 pefile
 lief
 capstone
