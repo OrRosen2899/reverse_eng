@@ -1,11 +1,10 @@
-PySide6
-yara-python
-oletools
+pyqt5
 pefile
 lief
 capstone
+oletools
 pdfminer.six
 transformers
 torch
-python-magic-bin
-requests
+python-magic
+psutil
