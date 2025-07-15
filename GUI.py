@@ -10,6 +10,7 @@ from typing import Dict, Any, Optional
 import json
 import time
 from threading import Lock
+import magic
 
 class AIAnalyzer:
     def __init__(self, config_manager):
