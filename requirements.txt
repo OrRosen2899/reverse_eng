@@ -1,10 +1,48 @@
-pyqt5
-pefile
-lief
-capstone
-oletools
-pdfminer.six
-transformers
-torch
-python-magic
-psutil
+# Advanced Security Analyzer - Python Dependencies
+# Reverse Engineering AI Agent Requirements
+
+# Core GUI Framework
+PySide6>=6.5.0
+
+# Binary Analysis Libraries
+pefile>=2024.8.26           # PE file analysis
+lief>=0.16.6                # Binary instrumentation framework  
+capstone>=5.0.6             # Disassembly engine
+
+# Office Document Analysis
+oletools                    # MS Office document analysis
+
+# PDF Analysis
+pdfminer.six>=20250506      # PDF text and object extraction
+
+# YARA Rule Engine
+yara-python>=4.3.1          # YARA pattern matching
+
+# File Type Detection
+python-magic>=0.4.27        # File type detection via magic numbers
+
+# AI/Machine Learning Libraries
+transformers>=4.30.0        # Hugging Face transformers
+torch>=2.0.0                # PyTorch deep learning framework
+accelerate>=0.20.0          # Accelerate for model optimization
+bitsandbytes>=0.39.0        # 8-bit quantization support
+
+# Additional Utilities
+requests>=2.28.0            # HTTP requests for model downloads
+numpy>=1.24.0               # Numerical computing
+psutil>=5.9.0               # System and process utilities
+
+# Development and Testing (optional)
+pytest>=7.0.0               # Testing framework
+black>=23.0.0               # Code formatting
+flake8>=6.0.0               # Code linting
+
+# Platform-specific dependencies
+# Windows only:
+# pywin32>=305; sys_platform == "win32"
+
+# macOS only:
+# pyobjc-framework-Cocoa>=9.0; sys_platform == "darwin"
+
+# Linux only - usually available via system package manager:
+# python3-magic; sys_platform == "linux"
